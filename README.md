@@ -18,6 +18,7 @@ A simple Pomodoro Timer built with HTML, CSS, and JavaScript to help users stay 
 
 ## Live Demo
 
+https://mahiyasingh.github.io/pomodoro-app/
 
 ## Future Improvements
 

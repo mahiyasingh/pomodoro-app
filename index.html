@@ -67,17 +67,17 @@
         msg.textContent = "Keep going...";
         if(timeleft<=0) {
             if(currentMode==="focus"){
-                pomodoroCount++;
-                msg.textContent = "✨ Focus session completed!";
-                msg.classList.add("glow");
-                setTimeout(function(){
-                    msg.classList.remove("glow");
-                    msg.textContent="Ready to start?";
-                }, 3000);
-            resetTimer();
-            return;
-        }
+            pomodoroCount++;
+            msg.textContent = "✨ Focus session completed!";
+            msg.classList.add("glow");
+            setTimeout(function(){
+            msg.classList.remove("glow");
+            msg.textContent="Ready to start?";
+        }, 3000);
     }
+    resetTimer();
+    return;
+}
         console.log("tick");
         timeleft--;
         updateTimerDisplay();
